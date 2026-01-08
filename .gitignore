@@ -1,0 +1,14 @@
+# .gitignore
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unsloth 编译缓存
+unsloth_compiled_cache
