@@ -16,6 +16,7 @@ unsloth_compiled_cache
 # 数据
 data/
 
-# 训练的模型和检查点
+# 训练的模型和检查点。这俩不应该版本控制的，但是也应该有策略的管理和备份。选择将重要的模型版本上传到Hugging Face Hub或其他模型存储库。
 lora_model/
 outputs/
+unsloth_finetune/
